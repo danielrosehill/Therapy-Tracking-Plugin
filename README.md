@@ -19,7 +19,7 @@ Workspace data lives **outside** the plugin at `$CLAUDE_USER_DATA/therapy-tracki
 
 ## Storage convention
 
-Follows the [`claude-rudder:plugin-data-storage`](https://github.com/danielrosehill/Claude-Rudder) convention:
+Follows the [`rudder:plugin-data-storage`](https://github.com/danielrosehill/Claude-Rudder) convention:
 
 - **Plugin code** lives at the install path (read-only, replaced on update).
 - **User config** lives at `${CLAUDE_USER_DATA:-${XDG_DATA_HOME:-$HOME/.local/share}/claude-plugins}/therapy-tracking/config.json`.
